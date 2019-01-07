@@ -1,0 +1,34 @@
+%!TEX root=../../root.tex
+
+\section{Lezione 1}
+
+\subsection{Introduzione al corso}
+Il corso di \emph{Automi, Calcolabilità e Complessità} \`e un corso di informatica teorica. \newline
+L'informatica teorica \`e importante per lo sviluppo della materia in quanto grazie a risultati teorici si sono fatti passi avanti nel campo applicativo.\newline
+Possiamo suddividere gli argomenti trattati in questo corso come segue:
+\begin{description}
+	\item Teoria dei linguaggi formali
+	\item Teoria della complessit\`a
+	\item Teoria della calcolabilit\`a
+\end{description}
+Un concetto fondamentale e che \`e presente in tutte e tre le aree \`e il \emph{modello di calcolo}, ossia un sistema formale nel quale si descrive una computazione.
+
+\subsection{La macchina di Turing e il  $\lambda$-calcolo}
+La macchina di Turing e il $\lambda$-calcolo sono dei modelli di calcolo definiti nel 1936 per risolvere un problema enunciato da Hilbert nel 1928, tale problema consisteva nel trovare una procedura(algoritmo) che data una formula di calcolo in input stabilisse se fosse un teorema. Per risolvere questo problema si \`e avuta la necessit\`a di formalizzare il concetto di algoritmo e per la prima volta venne dimostrata la non esistenza di un algoritmo risolutivo per un certo problema. Ci\`o fu un notevole successo nello sviluppo dell'informatica teorica.
+
+\paragraph{La macchina di Turing} Questo modello di calcolo \`e alla base della teoria della complessit\`a. Possiamo immaginare la macchina di Turing come un calcolatore ideale con un nastro infinito e una testina in grado di leggere una cella del nastro e effettuare un computazione. Ci\`o che interessa sapere \`e se un algoritmo termina oppure no.
+
+
+\subsection{Classificazione dei problemi}
+La teoria della calcolabilit\`a studia i problemi che non possono essere risolti da un calcolatore e cerca di capire cosa rende certi problemi cos\`i difficili da non poter essere risolti e di fornire strumenti per dimostrare che effettivamente non possono essere risolti attraverso un algoritmo.\newline
+Quindi possiamo classificare i problemi tra problemi risolvibili da un calcolatore e problemi non risolvibili da un calcolatore.\newline
+Per avere un' idea di quale sia il rapporto tra i problemi risolvibili e quelli non risolvibili possiamo paragonare la cardinalit\`a dei problemi risolvibili a quella dei numeri naturali e la cardinalit\`a di quelli non risolvibili a quella dei numeri reali.\newline
+Tutti i problemi risolvibili possono essere espressi attraverso il $\lambda$-calcolo (e ogni modello di calcolo equivalente).\newline
+I problemi risolvibili dal calcolatore possono essere classificati anche in base alla loro complessit\`a.
+\begin{description}
+	\item $P$, in questa classe si collocano tutti i problemi risolvibili in tempo polinomiale. Questi problemi vengono chiamati anche \emph{trattabili} o \emph{ragionevoli}.
+	\item $NP$, in questa classe si collocano tutti i problemi che ammettono un verificatore polinomiale. Ossia data un' istanza del problema e un'ipotetica soluzione deve esistere un algoritmo polinomiale che stabilisce se la soluzione \`e valida oppure no. Un esempio di problema $NP$ \`e la ricerca di un ciclo hamiltoniano (ossia la ricerca di un ciclo in un grafo che includa tutti i nodi senza passare pi\`u volte nello stesso arco). Un altro esempio \`e l'algoritmo che stabilisce se una formula booleana sia soddisfacibile.
+\end{description}
+
+\emph{p.s.} Se un problema \`e risolvibile in tempo polinomiale lo \`e in tutti i modelli di calcolo.
+

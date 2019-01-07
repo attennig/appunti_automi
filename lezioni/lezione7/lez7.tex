@@ -1,0 +1,80 @@
+%!TEX root=../../root.tex
+
+\section{Lezione 7}
+\subsection{Le espressioni regolari}
+Le espressioni regolare, dall'inglese \emph{Regular Expression} in breve \textbf{RE}, sono un linguaggio formale alternativo agli automi. Le espressioni regolari denotano un linguaggio formale.
+\subparagraph{Definizione induttiva}
+\begin{description}
+	\item \emph{Passo base:} 
+		\begin{itemize}
+			\item $\forall a \in \Sigma$ $a$ \`e una $RE$;
+			\item $\varepsilon$ \`e una $RE$;
+			\item $\emptyset$ \`e una $RE$.
+		\end{itemize}
+	\item \emph{Passo induttivo:} Se $R_1$ e $R_2$ sono $RE$ allora:
+		\begin{itemize}
+			\item $R_1 \cup R_2$ o $R_1 + R_2$ \`e una $RE$;
+			\item $R_1R_2$ \`e una $RE$;
+			\item $R_1^{\star}$ \`e una $RE$.
+		\end{itemize}
+\end{description}
+\subparagraph{Linguaggi denotati da RE}
+	\begin{description}
+		\item $a \in \Sigma$ denota $L=\{a\}$;
+		\item $\varepsilon$ denota $L=\{\varepsilon\}$;
+		\item $\emptyset$ denota $L=\emptyset$;
+		\item $L(R_1+R_2) = L(R_1) \cup L(R_2)$;
+		\item $L(R_1R_2) = L(R_1)L(R_2)$;
+		\item $L(R_1^{\star}) = (L(R_1))^{\star}$.
+	\end{description}
+Ricordiamo che:
+\begin{description}
+	\item $R \emptyset = \emptyset = \emptyset R$;
+	\item $\emptyset^0 = \{\varepsilon\}$;
+	\item $\emptyset^{\star} = \{\varepsilon\}$, questo rappresenta l'unico caso in cui l'operazione della stella di Kleene restituisce un insieme finito.
+\end{description}
+\subsection{Da $RE$ a $NFA$}
+Data $R \in RE \Rightarrow \exists A \in NFA$ t.c. $L(R) = L(A)$.
+\subparagraph{Dimostrazione:} per dimostrare questa implicazione ci baseremo sulla definizione induttiva di $RE$.
+\begin{description}
+ 	\item Passo base:
+ 		\begin{itemize}
+ 			\item $a \in \Sigma \Rightarrow$ possiamo rappresentare $a$ come un automa costituito da un arco etichettato $a$ tra lo stato inziale $q_i$ e lo stato finale $q_f$.
+ 			\item $\varepsilon \in \Sigma \Rightarrow$ possiamo rappresentare $\varepsilon$ come un automa costituito dallo stato iniziale che \`e anche finale.
+ 			\item  $\emptyset \Rightarrow$ possiamo rappresentarlo come un automa costituito dal solo stato iniziale.
+ 		\end{itemize}
+ 	\item Passo induttivo:
+ 		\begin{itemize}
+ 			\item $R_1 \cup R_2 \Rightarrow \exists A_1 , A_2 \in NFA$ t.c. $L(A_1) = L(R_1) \land L(A_2) = L(R_2) \land L(A_1 \cup A_2 ) = L(R_1 \cup R_2 )$.
+ 			\item $R_1 + R_2 \Rightarrow$ come sopra ma con l'intersezione.
+ 			\item  $R_1^{\star} \Rightarrow \exists A_1$ t.c. $L(A_1) = L(R_1) \Rightarrow L(A_1)^{\star} = L(R_1)^{\star} \Rightarrow L(A_1^{\star}) = L(R_1^{\star})$.
+ 		\end{itemize}
+\end{description}
+
+\subsection{Da $DFA$ a $RE$}
+Dato $A \in DFA \Rightarrow \exists R \in RE$ t.c. $L(A) = L(R)$.
+\subparagraph{Dimostrazione:} per dimostrare questa implicazione esibiremo un algoritmo che dato un $DFA$ fornisce la $RE$ equivalente e motiveremo la sua correttezza.
+\begin{description}
+	\item \emph{Input:} $A = (Q, \Sigma, \delta, q_0 , F ) \in DFA$
+	\item \emph{Output:} $R \in RE$ t.c. $L(R) = L(A)$
+	\item \emph{Algoritmo:}
+		\begin{enumerate}
+			\item Trasformare $A$ in un $GNFA$ in forma normale.
+			\item Ripeti l' eliminazione di uno stato finch\'e resta solo la coppia di stati iniziale e finale, $(q_0 , q_f )$.
+			\item L'etichetta che resta sulla transizione dallo stato iniziale a quello finale \`e la $RE$ che denota il linguaggio accettato da $A$.
+		\end{enumerate}
+\end{description}
+\textbf{\emph{GNFA in forma normale:}}\newline
+$GNFA$ sta per \emph{Generalized NFA}, ossia un automa in cui ogni transizione \`e etichettata con una RE. Un $GNFA$ per essere in forma normale deve avere le seguenti
+propriet\`a:
+\begin{enumerate}
+	\item Esiste un unico stato finale diverso da quello iniziale.
+	\item Lo stato iniziale non deve avere archi entranti.
+	\item Lo stato finale non deve avere archi uscenti.
+	\item Tra ogni coppia di stati esiste un unico arco.
+	\item Tra ogni coppia di stati esiste almeno un arco. Quest'ultima propriet\`a serve per rendere $\delta$ completa, quindi per ogni coppia di stati non legata da nessun arco bisogna aggiungere un arco etichettato $\emptyset$.
+\end{enumerate}
+\textbf{\emph{Passo di eliminazione di uno stato:}}\newline
+Dato uno stato $q \in Q$ vogliamo eliminarlo senza cambiare il linguaggio accettando dall'automa. Per ogni $u, s \in Q $ t.c. esiste un cammino da $u$ ad $s$ passante per $q$ e di lunghezza 3, creo un arco da $u$ ad $s$ etichettato dalla $RE$ che consentiva di transitare da $u$ ad $s$ passando per $q$.\newline
+\textbf{\emph{Correttezza:}}\newline
+La correttezza di questo algoritmo risiede nel fatto che ad ogni passo di eliminazione il linguaggio accettato dall'automa non viene alterato. Per tale motivo al termine delle eliminazioni avremo una sola etichetta tra lo stato iniziale e quello finale, tale etichetta \`e proprio la $RE$ che denota il linguaggio accettato dall'automa.

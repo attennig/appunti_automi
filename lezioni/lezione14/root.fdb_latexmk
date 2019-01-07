@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1543148376 "root.tex" "root.pdf" "root" 1543148377
+  "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1542354395 2972202 0e02dba1829b9721132118a7a3cb496b ""
+  "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1542354436 4222495 7fc53841411b9abe2642e08df928b438 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1542354390 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "root.aux" 1543148376 8 a94a2480d3289e625eea47cd1b285758 ""
+  "root.tex" 1543148373 8034 b1d87dc482f9c3bb8091c623adc3f658 ""
+  (generated)
+  "root.log"
+  "root.pdf"

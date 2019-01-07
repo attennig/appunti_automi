@@ -1,0 +1,734 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ldr",
+				"ldrAverageLight"
+			],
+			[
+				"fsrSq",
+				"fsrSquareForce"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"int",
+				"internal_server_error"
+			],
+			[
+				"task",
+				"task_id"
+			],
+			[
+				"get",
+				"get_task_from_db"
+			],
+			[
+				"post",
+				"postiOccupati_GG_UO"
+			],
+			[
+				"posti",
+				"postiTotaliUO"
+			],
+			[
+				"I",
+				"Iscrizione"
+			],
+			[
+				"attiv",
+				"attivitaOrario"
+			],
+			[
+				"a",
+				"attivitaArea"
+			],
+			[
+				"att",
+				"Attivita"
+			],
+			[
+				"attivi",
+				"attivitaArea"
+			],
+			[
+				"Abb",
+				"AbbonamentoAttivo"
+			],
+			[
+				"tipo",
+				"TipoAbbonamento"
+			],
+			[
+				"attivita",
+				"_attivitaOrario_"
+			],
+			[
+				"nacc",
+				"nAccessiMese"
+			],
+			[
+				"acc",
+				"accessiAreaDaClienteMese"
+			],
+			[
+				"access",
+				"accessiAreaDaCliente"
+			],
+			[
+				"ar",
+				"areaAccedutaDa"
+			],
+			[
+				"ist",
+				"istanteCompresoIn"
+			],
+			[
+				"area",
+				"areaAccedutaDa"
+			],
+			[
+				"Contratto",
+				"ContrattoDet"
+			],
+			[
+				"sovr",
+				"deltaSovrapp"
+			],
+			[
+				"sov",
+				"deltaSovrapp"
+			],
+			[
+				"orar",
+				"orariSovrapp"
+			],
+			[
+				"nome",
+				"nomePlay"
+			],
+			[
+				"child",
+				"childPipeErr"
+			],
+			[
+				"write",
+				"writeToStd"
+			],
+			[
+				"awk",
+				"awkOut"
+			],
+			[
+				"modifi",
+				"modifiedAwkErr"
+			],
+			[
+				"free",
+				"freeEverythingAndClose"
+			],
+			[
+				"exit",
+				"exitStatus"
+			],
+			[
+				"client",
+				"clientSocket"
+			],
+			[
+				"server",
+				"serverSocket"
+			],
+			[
+				"chil",
+				"childPipeOut"
+			],
+			[
+				"prin",
+				"printDirAndFilesCount"
+			],
+			[
+				"is",
+				"isSymbolicLink"
+			],
+			[
+				"file",
+				"fileIsLegal"
+			],
+			[
+				"last",
+				"lastChildren"
+			],
+			[
+				"array",
+				"arrayIndex"
+			],
+			[
+				"dir",
+				"dirCounter"
+			],
+			[
+				"string",
+				"stringToPrint"
+			],
+			[
+				"lsat",
+				"lastFlag"
+			],
+			[
+				"writ",
+				"writeTempPtr"
+			],
+			[
+				"tempF",
+				"tempFileSize"
+			],
+			[
+				"ge",
+				"getLowerByte"
+			],
+			[
+				"upper",
+				"upperByte"
+			],
+			[
+				"short",
+				"shortByte"
+			],
+			[
+				"ret",
+				"retByte"
+			],
+			[
+				"sed",
+				"sedPID"
+			],
+			[
+				"outp",
+				"outputChar"
+			],
+			[
+				"temp",
+				"tempPtr"
+			],
+			[
+				"str",
+				"string.h\tstandard header"
+			],
+			[
+				"printM",
+				"printStringMatrix"
+			],
+			[
+				"fillMa",
+				"fillMatrixWithString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/don/Dropbox/Automi/Strutturato/Sketch.txt",
+			"settings":
+			{
+				"buffer_size": 745,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: DB2"
+			],
+			[
+				"Package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Packag",
+				"PackageResourceViewer: Open Resource"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 573.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/don/Dropbox/Automi/Strutturato",
+		"/home/don/Dropbox/Automi/Strutturato/lezioni"
+	],
+	"file_history":
+	[
+		"/home/don/Downloads/everything_works (1)/everything_works/everything_works.ino",
+		"/home/don/Desktop/arduino.ino",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/appunti/To-Dos.txt",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/appunti/Incontro with Prof. Mancini 29-11.txt",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/01-requirements/specimen/content.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/01-requirements/content.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/appunti/incontro 16-11.txt",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/00-preamble/glossary/human.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/01-requirements/human/content.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/appunti/AntropologiaBD.db2",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/00-preamble/glossary/specimen.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/01-requirements/tooth/content.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/01-requirements/necropolis/content.tex",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/root.pdf",
+		"/home/don/Desktop/Automi/LaTeX/lezioni/lezione12/root.tex",
+		"/home/don/trash",
+		"/home/don/Dropbox/mclab/projects/2018/antropologia/doc/root.tex",
+		"/home/don/Desktop/progettinoFA2018/PASSWD 3.1.txt",
+		"/home/don/Desktop/Projects/Antropologia/AntropologiaBD.db2",
+		"/home/don/JohnTheRipper-bleeding-jumbo/run/john.conf",
+		"/home/don/Downloads/crackstation.txt",
+		"/home/don/Downloads/crackstation (1).txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Progetti/2017/jtr59pass700mb.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Progetti/2017/hashcat56pass15gb.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Progetti/2017/hashcat48pass700mb.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Progetti/2015/passwd2b.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Progetti/2017/jtr68pass15gb.txt",
+		"/home/don/john-1.8.0/README",
+		"/home/don/Desktop/progettinoFA2018/pswd2.txt",
+		"/home/don/.cache/.fr-9Lr5WE/rockyou.txt",
+		"/home/don/john-1.8.0/run/password.lst",
+		"/home/don/Downloads/john-1.8.0/doc/INSTALL",
+		"/home/don/Downloads/john-1.8.0/README",
+		"/home/don/Desktop/Sicurezza/Dispense/2017/rfc2459.txt",
+		"/home/don/GoogleDrive/antropologia/doc/01-requirements/necropolis/content.tex",
+		"/home/don/GoogleDrive/texmf/README.txt",
+		"/home/don/GoogleDrive/antropologia/doc/root.tex",
+		"/home/don/GoogleDrive/antropologia/doc/root.log",
+		"/home/don/GoogleDrive/antropologia/doc/01-requirements/specimen/content.tex",
+		"/home/don/GoogleDrive/antropologia/doc/01-requirements/content.tex",
+		"/home/don/ownCloud/texmf/tex/latex/ToniStyles/MCLabPaper/MCLabPaper_Options_2.tex",
+		"/home/don/Desktop/Projects/Antropologia/doc/20-requirements/requirements.tex",
+		"/home/don/Desktop/Projects/Antropologia/doc/20-requirements/actors.tex",
+		"/home/don/Desktop/Projects/Antropologia/doc/content.tex",
+		"/home/don/Desktop/Projects/Antropologia/doc/root.tex",
+		"/home/don/Desktop/Projects/Antropologia/doc/preamble.tex",
+		"/home/don/.config/sublime-text-3/Packages/LaTeXTools/Default (Linux).sublime-keymap",
+		"/home/don/.config/sublime-text-3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/home/don/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/don/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/don/Desktop/Automi/LaTeX/root.tex",
+		"/home/don/Desktop/Projects/SyLVaaS web app/doc/root.tex",
+		"/home/don/Desktop/Projects/SyLVaaS web app/doc/preamble.tex",
+		"/home/don/Desktop/Automi/LaTeX/lezioni/lezione1/lez1.tex",
+		"/home/don/Desktop/Projects/SyLVaaS web app/doc/content.tex",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Tracce.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/Risposte.txt",
+		"/home/don/Downloads/Donnie",
+		"/media/don/00218PRD00011B56/README.TXT",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/ESONERO 2017/appunti sicurezza esonero/appunti es 2.txt",
+		"/home/don/Desktop/Sicurezza/Appunti/File LaTeX-Word/main_sicurezza.lyx",
+		"/media/don/00218PRD00011B56/autorun.inf",
+		"/home/don/Desktop/Fisica/Esercizi-fisica-19.10.18/Esercizi-fisica-19.10.18.ipynb",
+		"/home/don/sylvaas-backend/test_client/src/test_client/__main__.py",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/PROGETTINO 2017/hashcat48pass700mb.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/PROGETTINO 2017/jtr59pass700mb.txt",
+		"/home/don/Desktop/Sicurezza/Esercizi ed esami/PROGETTINO 2017/jtr68pass15gb.txt",
+		"/home/don/sylvaas-backend/docker-compose.yml",
+		"/home/don/sylvaas-backend/api/src/sylvaas/app.py",
+		"/home/don/sylvaas-backend/test_client/src/setup.py",
+		"/home/don/sylvaas-backend/test_client/Dockerfile",
+		"/home/don/sylvaas-backend/api/src/sylvaas/__main__.py",
+		"/home/don/sylvaas-backend/test_client/src/requirements.txt",
+		"/home/don/sylvaas-backend/dispatcher/Dockerfile",
+		"/home/don/sylvaas-backend/test_client/src/test_client/__init__.py",
+		"/home/don/sylvaas-backend/test_client/src/client/__main__.py",
+		"/home/don/sylvaas-backend/docker-compose.prod.yml",
+		"/home/don/sylvaas-backend/docker-compose.override.yml",
+		"/home/don/sylvaas-backend/dispatcher/src/dispatcher/__main__.py",
+		"/home/don/sylvaas-backend/dispatcher/src/setup.py",
+		"/home/don/sylvaas-backend/test_client/src/client/app.py",
+		"/home/don/sylvaas-backend/dispatcher/src/requirements.txt",
+		"/home/don/sylvaas-backend/dispatcher/src/dispatcher/__init__.py",
+		"/home/don/sylvaas-backend/test_client/src/client/__init__.py",
+		"/home/don/sylvaas-backend/test_client/entrypoint.sh",
+		"/home/don/sylvaas-backend/api/entrypoint.sh",
+		"/home/don/sylvaas-backend/api/Dockerfile",
+		"/home/don/Desktop/Projects/Santa/1-introduction/content.tex",
+		"/home/don/Desktop/Projects/Santa/preamble.tex",
+		"/home/don/Desktop/Projects/Santa/root.tex",
+		"/home/don/Desktop/Projects/Santa/content.tex",
+		"/home/don/Desktop/Projects/SyLVaaS web app/doc/script.sh",
+		"/home/don/Desktop/Projects/Santa/1 - introduction/content.tex",
+		"/home/don/Desktop/Projects/SyLVaaS web app/doc/10-introduction/content.tex",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/css/style.css",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/index.html",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/services.html",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/team.html",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/contact.html",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/js/script.js",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/about.html",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/js/gmap3.min.js",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/custom_html/contact.php",
+		"/home/don/sylvaas-backend/dispatcher/src/dispatcher/queries.py",
+		"/home/don/sylvaas-backend/api/src/sylvaas/errors.py",
+		"/home/don/sylvaas-backend/dispatcher/src/dispatcher/Task.py",
+		"/home/don/sylvaas-backend/api/src/sylvaas/middleware.py",
+		"/home/don/Desktop/SyLVaaS web app/doc/40-design/functionalities/user/flask/userTools.tex",
+		"/home/don/sylvaas-backend/api/src/sylvaas/queries.py",
+		"/home/don/Desktop/Sito Zia/themeforest-18031391-legal-pro-lawlegal-business-template/documentation/css/documenter_style.css",
+		"/home/don/sylvaas-backend/api/src/queries.py",
+		"/home/don/sylvaas-backend/api/src/Task.py",
+		"/home/don/sylvaas-backend/api/src/middleware.py",
+		"/home/don/sylvaas-backend/db/Dockerfile",
+		"/home/don/sylvaas-backend/db/sql/main.sql",
+		"/home/don/sylvaas-backend/db/sql/create.d/domains.sql",
+		"/home/don/sylvaas-backend/db/sql/create.d/functions.sql",
+		"/home/don/sylvaas-backend/api/src/requirements.txt",
+		"/home/don/sylvaas-backend/api/src/setup.py",
+		"/home/don/sylvaas-backend/api/Dockerfile.production",
+		"/home/don/sylvaas-backend/api/src/sylvaas/__init__.py",
+		"/home/don/sylvaas-backend/api/src/sylvaas/Task.py",
+		"/home/don/Desktop/UNIVERSITA'/2° Anno/2° Semestre/Basi di Dati 2/Progetti ed Esami/Esame 02-09-16 (MyTunes)/A1. Raffinamento.DB2",
+		"/home/don/Desktop/UNIVERSITA'/2° Anno/2° Semestre/Basi di Dati 2/Progetti ed Esami/Esame 02-09-16 (MyTunes)/_Traccia (3).jpeg",
+		"/home/don/Desktop/Ricerca/PAEON_services_database_design-20180906T132015Z-001/PAEON_services_database_design/5-design-functionalities/spec-treatment-rest.tex",
+		"/home/don/Desktop/SyLVaaS web app/doc/40-design/functionalities/user/rest/userTools.tex",
+		"/home/don/Desktop/SyLVaaS web app/doc/40-design/rel-schema/system.tex",
+		"/home/don/Desktop/SyLVaaS web app/doc/40-design/rel-schema/triggers.tex"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MCLabPaper_Options_2.tex",
+			"ownCloud"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/don/Dropbox/Automi/Strutturato/Sketch.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lez1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

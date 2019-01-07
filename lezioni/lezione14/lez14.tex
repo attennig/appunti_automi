@@ -1,0 +1,127 @@
+%!TEX root=../../root.tex
+
+\section{Lezione 14}
+\subsection{Macchine di Turing e Teoremi}
+\subsubsection{Classe dei linguaggi Turing-Riconoscibili}
+\[
+	L(TM) = \{ L \ | \ \exists \ T \in TM \land L(T) = L \}
+\]
+\subsubsection{Classe dei linguaggi Turing-Decidibili}
+\[
+	L(TM_d) = \{ L \ | \ \exists \ T \in TM \land L(T) = L \land T \text{ si ferma sempre}\}
+\]
+\subsubsection{Equivalenza tra $TM$ a k nastri e TM} 
+Una macchina di Turing a $k$ nastri è identica ad una "normale", a differenza della funzione di transizione, adattata per leggere, scrivere e muovere la testina per ognuno dei $k$ nastri. Essa è descritta formalmente così:
+\[
+	\delta: Q \times \Gamma^k \to Q \times (\Gamma \times \{ L, R \})^k
+\]
+\[
+	\delta(q, a_1,a_2,...,a_k) = (p, (b_1,L), (b_2,R), ..., (b_k, L))
+\]
+che significa che se la macchina sta nello stato $q$ e legge $a_i$ sull'i-esimo nastro, va nello stato $p$ e sull'i-esimo nastro scrive $b_i$ e sposta la testina a destra o a sinistra.
+
+Sia $L(TM_k)$ la classe dei linguaggi riconosciuti dalle macchine di Turing a $k$ nastri, vogliamo dimostrare che è equivalente ad $L(TM)$ e quindi che la versione a $k$ nastri delle macchine di Turing non \`e un modello pi\`u potente.
+
+
+\textit{Dimostrazione:} Per dimostrare che $L(TM_k) = L(TM)$ dobbiamo dimostrare le due inclusioni $L(TM) \subseteq L(TM_k)$ e $L(TM_k) \subseteq L(TM)$.
+\begin{itemize}
+	\item $L(TM) \subseteq L(TM_k)$, questa inclusione è banale poiché le macchine di Turing a $k$ nastri con $k = 1$ sono le classiche macchine di Turing.
+	\item $L(TM_k) \subseteq L(TM)$, per dimostrare questa inclusione utilizziamo il seguente teorema.
+\end{itemize}
+\subsubsection{Teorema}
+\[
+	T \in TM_k \Rightarrow \exists T' \in TM \land L(T) = L(T')
+\] 
+\textit{Dimostrazione:} Data $T \in TM_k$ vogliamo mostrare che possiamo costruire una macchina $T'$ con un unico nastro equivalente a $T$. $T'$ avrà il contenuto dei k nastri di $T$ sul suo unico nastro con dei delimitatori ($\#$) per riconoscere la fine del contenuto di un singolo nastro.
+	\begin{itemize}
+		\item \textit{Configurazione iniziale:} Sia $c_0^T$ la configurazione iniziale di $T$. Poiché $T$ ha $k$ nastri essa deve mantenere l'informazione sullo stato (lo stesso per tutti i $k$ nastri) e le celle di tutti i $k$ nastri, che sono tutti vuoti tranne il primo, il quale contiene l'input. 
+		
+		Quindi la configurazione iniziale è della forma
+		$$c_0^T = (q_0 a_1...a_n, \  q_0B, q_0B, ...,\  q_0B)$$
+		Con una serie di passi possiamo portare $T'$ in una configurazione iniziale equivalente:
+		$$c_0^{T'} = (p_0 a_1...a_n) \Rightarrow^* (p(q_0) \ \dot{a_1}...a_n \ \# \dot{B} \# ... \# \ \dot{B} \#\#)$$
+		dove il punto sopra un simbolo del nastro significa che la testina dell'$i$-esimo nastro di $T$ che stiamo simulando sta su quel simbolo, mentre $p(q_0)$ significa che $T'$ sta in uno stato equivalente a $q_0$ di $T$.
+		\item \textit{Configurazione generica:} Assumiamo ora che $T'$ sia in una configurazione
+		\[
+			c = (p(q)\ \alpha_1 b_1 \dot{c}_1 d_1 \beta_1 \  \# ... \# \ \alpha_k b_k \dot{c}_k d_k \beta_k \ \#\#)
+		\]
+		e che la funzione di transizione di $T$ sia della forma
+		\[
+			\delta(q, c_1, ..., c_k) = (q', (f_1, L), ..., (f_k, R))
+		\]
+		Allora in una serie di passi possiamo portare $T'$ in una configurazione $c'$ in cui lo stato è cambiato seconda la funzione, mentre il nastro è rimasto invariato:
+		$$c \Rightarrow^* c' = (p(q, c_1...c_k) \ \alpha_1 b_1 \dot{c}_1 d_1 \beta_1 \ \# ... \# \  \alpha_k b_k \dot{c}_k d_k \beta_k \ \#\#)$$
+		Da questa configurazione possiamo poi cambiare le $k$ "posizioni di lettura" sul nastro, sempre simulando la funzione di transizione, arrivando ad una configurazione $c''$:
+		\[
+			c' \Rightarrow^* c'' = (p(q') \ \alpha_1 \dot{b_1} f_1 d_1 \beta_1 \ \# ... \# \  \alpha_k b_k f_k \dot{d_k} \beta_k \ \#\#)
+		\] 
+		
+		\item \textit{Configurazione di accettazione}:
+		La macchina $T'$ deve accettare quando la macchina $T$ che sta simulando arriva in $q_a$, ovvero quando raggiunge una configurazione
+		$$
+		c = (p(q_a) \ \alpha_1 \dot{c_1} \beta_1  \# ... \# \  \alpha_k \dot{c_k} \beta_k \ \#\#)
+		$$ 
+	\end{itemize}
+\subsubsection{NTM, macchine di Turing non deterministiche} Ridefiniamo la funzione di transizione per le macchine di Turing non deterministiche. 
+\[
+	\delta : Q \times \Gamma \to {\cal P} (Q \times (\Gamma \times \{L, R\} ))
+\]
+Per rendere la funzione totale aggiungiamo:
+\[
+	\delta(q_a, a) = \emptyset,\ \delta(q_r, a) = \emptyset\ \ \ \forall a \in \Gamma
+\]
+
+Partendo da una configurazione iniziale possiamo ricavare l'albero delle computazioni di una $NTM$. Questo albero può non essere finito in quanto non abbiamo certezza che la macchina si fermi. 
+
+Definiamo \textit{grado di non determinismo} di un nodo il numero di figli che esso ha nell'albero, ovvero il numero di possibili configurazioni in cui la $NTM$ può andare da una certa configurazione.
+
+Sia $d$ il massimo grado di non determinismo di un albero $$d = max\{ |\delta(q, a)| \ | \ q \in Q, \ a \in \Gamma  \}$$
+ allora ogni nodo ha al massimo $d$ figli e quindi l'albero è $d$-ario, non necessariamente completo.
+
+Sulla base dell'albero possiamo definire la condizione di accettazione e di rifiuto:
+
+\begin{itemize}
+ \item \textit{Condizione di accettazione}: L'albero ha almeno un ramo finito, che quindi termina in una foglia, e tale foglia è una configurazione di accettazione
+ 
+ \item \textit{Condizione di rifiuto}: L'albero è \textbf{finito}, e ogni foglia è una configurazione di rifiuto o bloccata. 
+ \end{itemize} 
+
+Da ciò discende che è molto più facile stabilire se un input viene accettato piuttosto che rifiutato. Se abbiamo un albero senza nessuna foglia allora vuol dire che la macchina su quell'input non termina mai, ma non possiamo concludere che l'input venga rifiutato, possiamo solo dire che non è accettato.
+
+\subsubsection{Teorema: equivalenza tra TM e NTM}
+
+Il non determinismo non aumenta il potere della macchina di Turing: mostriamo che è possibile costruire una $TM$ che simula una $NTM$.
+
+L'idea è "visitare" l'albero, simulando tutti i possibili rami di computazione. La visita avviene per livelli in quanto andare in profondità potrebbe portarci ad esplorare rami infiniti prima di rami che portano a configurazioni di accettazione o di rifiuto.
+
+Ogni nodo dell'albero è univocamente determinato dalla sequenza di scelte che dalla dalla radice portano al nodo. Per codificare le scelte numeriamo i figli di ogni nodo e diciamo che da una certa configurazione la macchina ha effettuato la scelta $i$ se passiamo alla configurazione corrispondente all' $i$-esimo figlio del nodo corrispondente.
+
+Possiamo rappresentare tutti i possibili cammini sull'albero $d$-ario (che supponiamo essere completo) dalla radice ad un qualsiasi nodo come una stringa $s \in \{1, ..., d\}^*$. L'ordine canonico descrive la visita per livelli.
+\\
+\\
+
+Diamo ora una descrizione di una $T' \in TM$ equivalente a una $T \in NTM$:
+\begin{itemize}
+	 \item $M_0 \in TM$ è usata per enumerare i cammini da simulare\\
+	 \textit{input}: $x \in \{1, ..., d\}^*$ \\
+	 \textit{descrizione}: rimpiazza $x$ con la stringa successiva nell'ordine canonico
+	 
+	 \item $T' \in TM$ simula $T$ tramite 3 nastri:
+	 \begin{enumerate}
+	 \item il primo nastro contiene la stringa di input di $T$
+	 \item il secondo nastro è il nastro di lavoro
+	 \item il terzo nastro contiene la codifica del ramo di computazione che sta simulando
+	 \end{enumerate}
+	 \textit{input}: $s \in \Sigma^*$\\
+	 \textit{descrizione}:
+	 \begin{enumerate}
+	 \item inizializza il terzo nastro con 1 (la configurazione iniziale)
+	 
+	 \item copia l'input $s$ sul nastro di lavoro ed esegui le mosse che $T$ fa (se ce ne sono) per raggiungere la configurazione identificata dalla stringa sul terzo nastro.
+	 \begin{itemize}
+	 \item se si raggiunge $q_a$, accetta
+	 
+	 \item se manca una mossa o si raggiunge una configurazione di rifiuto esegui $M_0$ sulla stringa sul terzo nastro, cancella il secondo nastro e ricomincia il punto 2
+	 \end{itemize}
+	 \end{enumerate}
+ \end{itemize} 

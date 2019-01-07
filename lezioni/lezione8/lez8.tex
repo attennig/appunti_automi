@@ -1,0 +1,45 @@
+%!TEX root=../../root.tex
+
+\section{Lezione 8}
+\subsection{Context Free Grammar}
+\subparagraph{Introduzione} Una $GFG$, \emph{[Contex Free Grammar]} , \`e un meccanismo che consente di generare tutte le parole di un certo linguaggio. Quindi date delle regole di derivazione, delle variabili e dei terminali dobbiamo essere in grado di applicare le regole ripetutamente partendo da una variabile di partenza fino ad arrivare ad una stringa composta da terminali che corrisponde ad una parola del linguaggio descritto dalla $CFG$.\newline
+Le $GCF$ sono applicate nello sviluppo di parser per i compilatori poich\`e consentono di effettuare un analisi sintattica dei programmi.
+\subparagraph{Definizione formale} Una grammatica $G$ \`e una quadrupla cos\`i definita:
+\[
+	G = (V, \Sigma, R, S)
+\]
+Dove:
+\begin{description}
+	\item $V$ \`e un insieme finito di \emph{variabili};
+	\item $\Sigma$ \`e un insieme finito di \emph{terminali};
+	\item $R$ \`e un insieme finito di \emph{regole};
+	\item $S \in V$ \`e la \emph{variabile di partenza}.
+\end{description}
+Definiamo anche una relazione binaria $\Rightarrow \subseteq (V \times (V \cup \Sigma)^{\star})$. Questa relazione \`e ci\`o che ci consente di effettuare una sostituzione mediante l'uso delle regole, ad esempio siano $u, v, w \in (V \cup \Sigma)^{\star}$ e $S \in V$ allora $uSv \Rightarrow uwv$. \newline
+Sfruttando questa relazioni possiamo anche definire il concetto di \emph{derivazione}, che consiste in una sequenza di sostituzioni, e indicheremo con $\Rightarrow^{\star}$.\newline
+Una derivazione pu\`o essere descritta anche dall'\emph{albero di derivazione}. La radice \`e sempre la variabile di partenza, i figli della radice sono il risultato della prima sostituzione. Ogni nodo se \`e un terminale allora non pu\`o pi\`u essere derivato e quindi \`e una foglia, se \`e una variabile viene effettuata una sostituzione e i suoi figli sono il risultati e a seconda delle regole possono essere altre variabili e/o terminali.
+
+\subparagraph{Esempi}
+\begin{description}
+	\item \emph{Esempio 1:} Grammatica per il linguaggio delle parole palindrome $PAL = \{x|x \in {0,1}^{\star} \land x=x^{rev}\}$.
+		\begin{description}
+			\item Variabili: $V = \{S\}$
+			\item Terminali: $\Sigma = \{0, 1\}$
+			\item Regole: $R = \{ S \to 0 | 1 | \varepsilon$, $S \to 0S0 | 1S1 \}$
+			\item Variabile di partenza: $S$
+		\end{description}
+	\item \emph{Esempio 2:} Grammatica per il linguaggio $L=\{0^n1^n n \geq 0\}$.
+		\begin{description}
+			\item Variabili: $V = \{S\}$
+			\item Terminali: $\Sigma = \{0, 1\}$
+			\item Regole: $R = \{ S \to \varepsilon$, $S \to 0S1 \}$
+			\item Variabile di partenza: $S$
+		\end{description}
+	\item \emph{Esempio 3:} Grammatica per il linguaggio per le operazioni aritmetiche.
+		\begin{description}
+			\item Variabili: $V = \{E, I\}$
+			\item Terminali: $\Sigma = \{a, b, (, ), +, \times\}$
+			\item Regole: $R = \{ E \to I | (E) | E+E | E \times E$, $I \to a | b \}$
+			\item Variabile di partenza: $E$
+		\end{description}
+\end{description}

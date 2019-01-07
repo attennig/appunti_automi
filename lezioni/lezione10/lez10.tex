@@ -1,0 +1,203 @@
+%!TEX root=../../root.tex
+
+\section{Lezione 10}
+\subsection{Forma normale di Chomsky}
+La forma normale di Chomsky \`e la pi\`u semplice e utile forma in cui esprimere una CFG.
+Diciamo che una grammatica $G = (V, \Sigma, R, S)$ \`e nella forma normale di Chomsky se ogni regola in $R$ \`e nella forma: 
+\[
+	A \to BC | A, B, C \in V
+\]
+\[
+	A \to a | A \in V, a \in \Sigma
+\]
+Inoltre Sipser aggiunge che sia permessa la regola cencellante:
+\[
+	S \to \varepsilon
+\]
+e che per limitare la lunghezza della derivazione $S$ non deve essere nella parte destra di nessuna regola.
+\paragraph{Algoritmo per ottenere una grammatica in forma normale di Chomsky}
+\begin{description}
+	\item \emph{Input:} $G = (V, \Sigma, R, S) \in CFG$.
+	\item \emph{Output:} $G' = (V', \Sigma, R', S')$ equivalente a $G$ ma in forma normale di Chomsky.
+	\item \emph{Algoritmo:}
+		\begin{enumerate}
+			\setcounter{enumi}{-1}
+			\item Dato che non vogliamo che la variabile di partenza $S$ compaia nella parte destra delle regole allora aggiungiamo $S_0$ in $V$ come variabile di partenza e la regola $S_0 \to S$.
+			\item \textbf{Eliminazione delle regole cancellanti}
+			\item \textbf{Eliminazione delle regole unitarie}
+			\item \textbf{Eliminazione delle variabili e regole inutili}
+			\item \textbf{Sostituzione delle regole con parte destra pi\`u lunga di tre e sostituzione dei terminali con delle variabili}
+			\item Aggiungiamo la regola $S_0 \to \varepsilon$ se necessario.
+		\end{enumerate}
+		Notare che i passi 0 e 5 sono stati aggiunti da Sipser e la forma normale di Chomsky originale prevede solo i passi da 1 a 4.\newline
+		Ora vediamo nel dettaglio i passi dal 1 al 4:
+		\begin{enumerate}
+			\item \textbf{Eliminazione delle regole cancellanti}
+				\begin{description}
+					\item \emph{Input:} $G = (V, \Sigma, R, S)$
+					\item \emph{Output:} $G' = (V', \Sigma, R', S')$ equivalente a $G$ ma senza regole cancellanti
+					\item \emph{Algoritmo:}
+						\begin{itemize}
+							\item Sia $NULL$ l'insieme delle variabili implicate in regole cancellanti.
+							\item Definiamo inizialmente $NULL$ come $NULL_0 = \{ A | A \in V \land A \to \varepsilon \}$.
+							\item Ripetiamo $NULL_i = NULL_{i-1} \cup \{ A | A \in V \land A \to u_1 ... u_k \in R \land u_j \in NULL_{i-1} 1 \leq j \leq k\}$ finch\'e $NULL_i \neq NULL_{i-1}$  o $NULL_i \neq V$.
+							\item $\forall A \in NULL$, $\forall B \to uAv \in R$ t.c. $B \in V, u,v \in (V \cup \Sigma)^{\star}$ aggiungo una nuova regola $B \to uv$. Notare che se $u$ e $v$ sono composte interamente da variabili che appartengono a NULL allora possiamo direttamente non aggiungere la regola.
+							\item Eliminiamo tutte le regole nella forma $A \to \varepsilon, \forall A \in NULL$.
+						\end{itemize}		
+				\end{description}
+			\item \textbf{Eliminazione delle regole unitarie}
+				\begin{description}
+					\item \emph{Input:} $G = (V, \Sigma, R, S)$
+					\item \emph{Output:} $G' = (V', \Sigma, R', S')$ equivalente a $G$ ma senza regole unitarie
+					\item \emph{Algoritmo:}
+						\begin{itemize}
+							\item Sia $UNIT$ l'insieme delle variabili implicate in regole unitarie.
+							\item Definiamo inizialmente $UNIT$ come $UNIT_0 = \{ (A,A) | A \in V\}$. Ossia stiamo considerando le regole unitarie implicite della forma $A \to A$ che equivale a non applicare nessuna regola in un passo di derivazione.
+							\item Ripetiamo $UNIT_i = UNIT_{i-1} \cup \{ (A, C) | (A, B) \in UNIT_{i-1} \land B \to C \in R \}$ finch\'e $UNIT_i \neq UNIT_{i-1}$  o $UNIT_i \neq V$.
+							\item $\forall (A, B) \in UNIT$ se esiste la regola $B \to u, u \in (V \cup \Sigma)^{\star}$ aggiungo la regola $A \to u$ ed elimino le regole unitarie.
+						\end{itemize}
+				\end{description}
+			\item \textbf{Eliminazione delle variabili e regole inutili}
+				Le variabili sono inutili se:
+				\begin{enumerate}
+					\item partendo da essa non \`e possibile derivare una stringa di terminali per qualsiasi numero di passi. Queste variabili sono chiamate \emph{variabili non produttive}.
+					\item dalla variabile iniziale non \`e possibile derivarla. Queste variabili sono chiamate \emph{variabili non derivabili}.	
+				\end{enumerate}
+				Suddividiamo questo passo in due algoritmi che si occupano rispettivamente dell'eliminazione delle variabili non produttive e delle variabili non derivabili.\newline
+				\textbf{Eliminazione delle variabili non produttive}
+				\begin{description}
+					\item \emph{Input:} $G = (V, \Sigma, R, S)$
+					\item \emph{Output:} $G' = (V', \Sigma, R', S')$ equivalente a $G$ ma senza regole non produttive
+					\item \emph{Algoritmo:}
+						\begin{itemize}
+							\item Sia $PROD$ l'insieme delle variabili produttive
+							\item Definiamo inizialmente $PROD$ come $PROD_0 = \{ A | A \in V \land A \to u \in R \land u \in \Sigma^{Star}\}$. 
+							\item Ripetiamo $PROD_i = PROD_{i-1} \cup \{ A | A \in V \land A \to u \in R \land u \in PROD_{i-1} \}$ finch\'e $PROD_i \neq PROD_{i-1}$  o $PROD_i \neq V$.
+							\item Eliminiamo tutte le regole in cui occorrono elementi che appartengono a $V-PROD$.
+						\end{itemize}
+				\end{description}
+			\textbf{Eliminazione delle variabili non derivabili}
+				\begin{description}
+					\item \emph{Input:} $G = (V, \Sigma, R, S)$
+					\item \emph{Output:} $G' = (V', \Sigma, R', S')$ equivalente a $G$ ma senza regole non derivabili
+					\item \emph{Algoritmo:}
+						\begin{itemize}
+							\item Sia $DER$ l'insieme delle variabili derivabili
+							\item Definiamo inizialmente $DER$ come $DER_0 = \{S \}$. 
+							\item Ripetiamo $DER_i = DER_{i-1} \cup \{ A | \exists B \in DER_{i-1} \land B \to uAv \in R \}$ finch\'e $DER_i \neq DER_{i-1}$  o $DER_i \neq V$.
+							\item Eliminiamo tutte le regole in cui occorrono elementi che appartengono a $V-DER$.
+						\end{itemize}
+				\end{description}		
+			\item \textbf{Sostituzione delle regole con parte destra pi\`u lunga di tre e sostituzione dei terminali con delle variabili}
+				\begin{itemize}
+					\item Se sono presenti regole del tipo $A \to u_1 ... u_k$ con $k \geq 3$ la sostituisco con una serie di regole di questa forma: 
+					\[
+						A \to u_1B_1					
+					\]
+					\[
+						B_1 \to u_2B_2					
+					\]
+					\[
+						...					
+					\]
+					\[
+						B_{k-2} \to u_{k-1}u_k					
+					\]
+					\item $\forall u \in \Sigma$ aggiungiamo una nuova regola definendo una nuova variabile $U \to u$ e sostituiamo $U$ ad $u$ in tutte le regole in cui $u$ occorre nella parte destra (di lunghezza 2).
+				\end{itemize}
+		\end{enumerate}
+\end{description}
+\subparagraph{Esempio} Diamo ora un esempio completo dell'applicazione dell'algoritmo.\newline
+Sia $G = (V, \Sigma, R, S)$ la seguente grammatica:
+\begin{description}
+	\item $V = \{S, A, B\}$
+	\item $\Sigma = \{a, b\}$
+	\item Le seguenti regole appartengono ad $R$:
+	\[S \to ASB | \varepsilon \]
+	\[A \to aAS | a \]
+	\[B \to bSb | A | bb\]
+\end{description}
+\begin{enumerate}
+	\setcounter{enumi}{0}
+	\item Aggiungiamo una nuova variabile di partenza $S_0$ e la regola $S_0 \to S$, quindi $G$ \`e ora cos\`i definita:
+	\begin{description}
+		\item $V = \{S_0, S, A, B\}$
+		\item $\Sigma = \{a, b\}$
+		\item Le seguenti regole appartengono ad $R$:
+		\[S_0 \to S\]
+		\[S \to ASB | \varepsilon \]
+		\[A \to aAS | a \]
+		\[B \to bSb | A | bb\]
+		\item $S_0$ variabile di partenza.
+	\end{description} 
+	\item L'unica regola cancellante \`e $S \to \varepsilon$. Quindi $NULL = \{S\}$. Procediamo aggiungendo le regole in cui S viene cancellato e otteniamo le regole $S \to AB, A \to aA$ quindi $R$ sar\`a cos\`i definito:
+		\[S_0 \to S\]
+		\[S \to ASB | AB \]
+		\[A \to aAS | aA | a \]
+		\[B \to bSb | A | bb\]
+	\item Eliminiamo ora le regole unitarie.
+		\begin{description}
+			\item $UNIT_0 = \{(S_0, S_0), (S, S), (A, A), (B, B)\}$
+			\item $UNIT_1 = UNIT_0 \cup \{ (S_0, S), (B,A)\}$
+			\item $UNIT_2 = UNIT_1 \cup \emptyset$
+			\item ora dobbiamo sostituire $S_0 	\to S$ con $S_0 \to ASB | AB$ e $B 	\to A$ con $B \to aAS | aA | a  $ e otteniamo il nuovo insieme di regole cos\`i definito:
+			\[S_0 \to ASB | AB\]
+			\[S \to ASB | AB \]
+			\[A \to aAS | aA | a \]
+			\[B \to bSb | aAS | aA | a | bb\]
+		\end{description}
+	\item Cerchiamo ora le variabili produttive e quelle derivabili.
+		\begin{description}
+			\item $PROD_0 = \{A, B\}$ 
+			\item $PROD_1 = PROD_0 \cup \{S, S_0\}$
+			\item $PROD_1 = V$ quindi mi fermo poich\`e non ci sono variabili non produttive.
+			\item $DER_0 = \{S_0\}$
+			\item $DER_1 = DER_0 \cup \{S, A, B\}$
+			\item $DER_1 = V$ quindi mi fermo poich\`e non ci sono variabili non derivabili.
+		\end{description}
+		In questo passo la grammatica \`e rimasta invariata.
+	\item Adesso introduciamo le variabili per le regole di derivazione dei terminali e aggiungiamo tali regole e infine riduciamo tutte le regole a regole con parte destra di lunghezza al pi\`u 2:
+		\begin{description}
+			\item Introducendo le regole dei terminali otteniamo:
+			\[S_0 \to ASB | AB\]
+			\[S \to ASB | AB \]
+			\[A \to DAS | DA | D \]
+			\[B \to CSC | DAS | DA | D | CC\]
+			\[C \to b\]
+			\[D \to a\]
+			\item $S_0 \to ASB$ diventa $S_0 \to AF$ e viene quindi introdotta la variabile $F$ e la regola $F \to SB$. Similmente procediamo per tutte le regole con parte destra con lunghezza maggiore di 2 e otteniamo $R$ cos\`i definito:
+			\[S_0 \to AF | AB\]
+			\[F \to SB \]
+			\[S \to AG | AB \]
+			\[G \to SB \]
+			\[A \to DH | DA | D \]
+			\[H \to AS \]
+			\[B \to CI | DJ | DA | D | CC\]
+			\[I \to SC \]
+			\[J \to AS \]
+			\[C \to b\]
+			\[D \to a\]		
+		\end{description}
+	\item Infine aggiungiamo la regola $S_0 \to \varepsilon$ poich\`e la parola vuota poteva essere derivata della grammatica iniziale.
+\end{enumerate}
+Quindi la nuova grammatica \`e cos\`i definita:
+\begin{description}
+	\item $V = \{S_0, S, A, B, C, D, F, G, H, I, J\}$
+	\item $Sigma = \{a, b\}$
+	\item Le seguenti regole appartengono ad $R$
+	\[S_0 \to AF | AB\]
+	\[F \to SB \]
+	\[S \to AG | AB \]
+	\[G \to SB \]
+	\[A \to DH | DA | D \]
+	\[H \to AS \]
+	\[B \to CI | DJ | DA | D | CC\]
+	\[I \to SC \]
+	\[J \to AS \]
+	\[C \to b\]
+	\[D \to a\]	
+	\item $S_0$ variabile di partenza
+\end{description}
+\subparagraph{Problema di decisione} Stabilire se una grammatica genera un linguaggio vuoto.\newline
+Una grammatica non \`e vuota se ha almeno una variabile produttiva. Possiamo quindi ridurre questo problema alla ricerca di variabili produttive, se non troviamo alcuna variabile produttiva allora la grammatica genera un linguaggio vuoto, altrimenti no.\newline
+Proviamo a dare un'idea della complessit\`a asintotica di questo algoritmo risolutivo. Possiamo dire che la grandezza della grammatica \`e data dal numero di variabili e dal numero di regole, quindi cerchiamo di esprimere la complessit\`a attraverso queste due grandezze. Sia $m = |V|$ e $n = |R|$. Il calcolo di $PROD_i$ \`e lineare nel numero di regole, infatti calcolando $PROD_i$ al massimo tutte le regole causeranno l'aggiunta di una variabile produttiva. Per calcolare $PROD$ al massimo sono necessarie $m$ iterazioni poich\`e una volta raggiunto $PROD = V$ non possiamo pi\`u aggiungere nulla. Quindi concludiamo che questo algoritmo ha complessit\`a $O(m \times n)$.

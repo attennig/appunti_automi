@@ -1,0 +1,1554 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.26)  7 JAN 2019 20:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**root.tex
+(./root.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 36 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count89
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count90
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count91
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
+\BKM@id=\count97
+))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip44
+\enit@outerparindent=\dimen107
+\enit@toks=\toks17
+\enit@inbox=\box26
+\enitdp@description=\count98
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen116
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen117
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip11
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks20
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks21
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks22
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count114
+\calc@Bcount=\count115
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count116
+\calc@Cskip=\skip53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count117
+\l_MT_multwidth_dim=\dimen127
+\origjot=\skip54
+\l_MT_shortvdotswithinadjustabove_dim=\dimen128
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen129
+\l_MT_above_intertext_sep=\dimen130
+\l_MT_below_intertext_sep=\dimen131
+\l_MT_above_shortintertext_sep=\dimen132
+\l_MT_below_shortintertext_sep=\dimen133
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/leftidx/leftidx.sty
+Package: leftidx 2003/09/24 v1.03 Left indices
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2005/02/21 v1.2 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks30
+\float@box=\box29
+\@float@everytoks=\toks31
+\@floatcapt=\box30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count119
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip55
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip56
+\skiplinenumber=\skip57
+\skiprule=\skip58
+\skiphlne=\skip59
+\skiptext=\skip60
+\skiplength=\skip61
+\algomargin=\skip62
+\skipalgocfslide=\skip63
+\algowidth=\dimen137
+\inoutsize=\dimen138
+\inoutindent=\dimen139
+\interspacetitleruled=\dimen140
+\interspacealgoruled=\dimen141
+\interspacetitleboxruled=\dimen142
+\algocf@ruledwidth=\skip64
+\algocf@inoutbox=\box31
+\algocf@inputbox=\box32
+\AlCapSkip=\skip65
+\AlCapHSkip=\skip66
+\algoskipindent=\skip67
+\algocf@nlbox=\box33
+\algocf@hangingbox=\box34
+\algocf@untilbox=\box35
+\algocf@skipuntil=\skip68
+\algocf@capbox=\box36
+\algocf@lcaptionbox=\skip69
+\algoheightruledefault=\skip70
+\algoheightrule=\skip71
+\algotitleheightruledefault=\skip72
+\algotitleheightrule=\skip73
+\c@algocfline=\count121
+\c@algocfproc=\count122
+\c@algocf=\count123
+\algocf@algoframe=\box37
+\algocf@algobox=\box38
+) (./root.aux)
+\openout1 = `root.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count125
+\scratchdimen=\dimen143
+\scratchbox=\box40
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen144
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks33
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+
+ []
+
+[2] (./lezioni/lezione1/lez1.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 16.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 16.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 16.
+
+[3]) [4] (./lezioni/lezione2/lez2.tex [5]
+Overfull \hbox (31.215pt too wide) in paragraph at lines 47--50
+ []\OT1/cmr/bx/n/12 Ordine canon-ico[] \OT1/cmr/m/n/12 In-dichi-amo con \OT1/cm
+r/m/it/12 or-dine canon-ico \OT1/cmr/m/n/12 un or-di-na-mento quasi lessicograf
+ico.
+ []
+
+
+Overfull \hbox (67.11908pt too wide) in paragraph at lines 59--72
+[] 
+ []
+
+[6]
+<lezioni/lezione2/a1a2.jpg, id=48, 799.98875pt x 111.41624pt>
+File: lezioni/lezione2/a1a2.jpg Graphic file (type jpg)
+<use lezioni/lezione2/a1a2.jpg>
+Package pdftex.def Info: lezioni/lezione2/a1a2.jpg  used on input line 86.
+(pdftex.def)             Requested size: 418.25368pt x 58.25128pt.
+<lezioni/lezione2/a3.jpg, id=49, 640.3925pt x 281.05pt>
+File: lezioni/lezione2/a3.jpg Graphic file (type jpg)
+<use lezioni/lezione2/a3.jpg>
+Package pdftex.def Info: lezioni/lezione2/a3.jpg  used on input line 94.
+(pdftex.def)             Requested size: 418.25368pt x 183.56375pt.
+
+Overfull \hbox (2.11719pt too wide) in paragraph at lines 88--95
+\OT1/cmr/m/n/12 Per capire come ag-giun-gere gli archi con-sid-e-ri-amo lo stat
+o $(\OML/cmm/m/it/12 q[]; p[]\OT1/cmr/m/n/12 )$, in-iziamo chieden-
+ []
+
+) [7 <./lezioni/lezione2/a1a2.jpg>] [8 <./lezioni/lezione2/a3.jpg>]
+(./lezioni/lezione3/lez3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+[9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+ [10]
+<lezioni/lezione3/nfa0.jpg, id=80, 322.20375pt x 281.05pt>
+File: lezioni/lezione3/nfa0.jpg Graphic file (type jpg)
+<use lezioni/lezione3/nfa0.jpg>
+Package pdftex.def Info: lezioni/lezione3/nfa0.jpg  used on input line 104.
+(pdftex.def)             Requested size: 161.10147pt x 140.52464pt.
+<lezioni/lezione3/nfa1.jpg, id=81, 580.1675pt x 141.52875pt>
+File: lezioni/lezione3/nfa1.jpg Graphic file (type jpg)
+<use lezioni/lezione3/nfa1.jpg>
+Package pdftex.def Info: lezioni/lezione3/nfa1.jpg  used on input line 114.
+(pdftex.def)             Requested size: 406.11447pt x 99.06944pt.
+ [11 <./lezioni/lezione3/nfa0.jpg>]
+<lezioni/lezione3/nfa1alb.jpg, id=91, 292.09125pt x 304.13625pt>
+File: lezioni/lezione3/nfa1alb.jpg Graphic file (type jpg)
+<use lezioni/lezione3/nfa1alb.jpg>
+Package pdftex.def Info: lezioni/lezione3/nfa1alb.jpg  used on input line 118.
+(pdftex.def)             Requested size: 204.46246pt x 212.8939pt.
+<lezioni/lezione3/nfa2.jpg, id=92, 643.40375pt x 282.05376pt>
+File: lezioni/lezione3/nfa2.jpg Graphic file (type jpg)
+<use lezioni/lezione3/nfa2.jpg>
+Package pdftex.def Info: lezioni/lezione3/nfa2.jpg  used on input line 123.
+(pdftex.def)             Requested size: 450.37955pt x 197.43626pt.
+
+Overfull \hbox (32.12587pt too wide) in paragraph at lines 123--124
+[][] 
+ []
+
+[12 <./lezioni/lezione3/nfa1.jpg> <./lezioni/lezione3/nfa1alb.jpg>] [13 <./lezi
+oni/lezione3/nfa2.jpg>]) [14] (./lezioni/lezione4/lez4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+[15] [16]
+<lezioni/lezione4/nfadfa.jpg, id=137, 469.755pt x 108.405pt>
+File: lezioni/lezione4/nfadfa.jpg Graphic file (type jpg)
+<use lezioni/lezione4/nfadfa.jpg>
+Package pdftex.def Info: lezioni/lezione4/nfadfa.jpg  used on input line 89.
+(pdftex.def)             Requested size: 281.85518pt x 65.04349pt.
+<lezioni/lezione4/nfadfa2.jpg, id=138, 593.21625pt x 492.84125pt>
+File: lezioni/lezione4/nfadfa2.jpg Graphic file (type jpg)
+<use lezioni/lezione4/nfadfa2.jpg>
+Package pdftex.def Info: lezioni/lezione4/nfadfa2.jpg  used on input line 93.
+(pdftex.def)             Requested size: 355.9325pt x 295.70702pt.
+ [17 <./lezioni/lezione4/nfadfa.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 96.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 96.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 96.
+
+File: lezioni/lezione3/nfa2.jpg Graphic file (type jpg)
+<use lezioni/lezione3/nfa2.jpg>
+Package pdftex.def Info: lezioni/lezione3/nfa2.jpg  used on input line 111.
+(pdftex.def)             Requested size: 386.04523pt x 169.23355pt.
+[18 <./lezioni/lezione4/nfadfa2.jpg>]) [19] (./lezioni/lezione5/lez5.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+<lezioni/lezione5/l5_1.jpg, id=163, 724.7075pt x 136.51pt>
+File: lezioni/lezione5/l5_1.jpg Graphic file (type jpg)
+<use lezioni/lezione5/l5_1.jpg>
+Package pdftex.def Info: lezioni/lezione5/l5_1.jpg  used on input line 10.
+(pdftex.def)             Requested size: 362.35286pt x 68.25482pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 12.
+
+<lezioni/lezione5/l5_2.jpg, id=164, 915.42pt x 371.3875pt>
+File: lezioni/lezione5/l5_2.jpg Graphic file (type jpg)
+<use lezioni/lezione5/l5_2.jpg>
+Package pdftex.def Info: lezioni/lezione5/l5_2.jpg  used on input line 33.
+(pdftex.def)             Requested size: 457.70888pt x 185.69328pt.
+
+Overfull \hbox (39.4552pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+[20 <./lezioni/lezione5/l5_1.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+[21 <./lezioni/lezione5/l5_2.jpg>]
+<lezioni/lezione5/l5_3.jpg, id=187, 1045.9075pt x 430.60875pt>
+File: lezioni/lezione5/l5_3.jpg Graphic file (type jpg)
+<use lezioni/lezione5/l5_3.jpg>
+Package pdftex.def Info: lezioni/lezione5/l5_3.jpg  used on input line 69.
+(pdftex.def)             Requested size: 366.0731pt x 150.7153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
+
+ []
+
+[22 <./lezioni/lezione5/l5_3.jpg>]
+<lezioni/lezione5/l5_5.jpg, id=196, 803.0pt x 556.0775pt>
+File: lezioni/lezione5/l5_5.jpg Graphic file (type jpg)
+<use lezioni/lezione5/l5_5.jpg>
+Package pdftex.def Info: lezioni/lezione5/l5_5.jpg  used on input line 121.
+(pdftex.def)             Requested size: 281.05421pt x 194.63004pt.
+<lezioni/lezione5/l5_6.jpg, id=197, 925.4575pt x 340.27126pt>
+File: lezioni/lezione5/l5_6.jpg Graphic file (type jpg)
+<use lezioni/lezione5/l5_6.jpg>
+Package pdftex.def Info: lezioni/lezione5/l5_6.jpg  used on input line 125.
+(pdftex.def)             Requested size: 370.17644pt x 136.10608pt.
+) [23 <./lezioni/lezione5/l5_5.jpg> <./lezioni/lezione5/l5_6.jpg>] (./lezioni/l
+ezione6/lez6.tex
+Overfull \hbox (29.08096pt too wide) in paragraph at lines 26--34
+\OT1/cmr/m/n/12 Adesso scriv-i-amo $\OML/cmm/m/it/12 w[] \OT1/cmr/m/n/12 = \OML
+/cmm/m/it/12 xy[]z$ \OT1/cmr/m/n/12 per la scom-po-sizione che ab-bi-amo scelto
+: $0[](0[])[]0[]10[]1$. 
+ []
+
+[24]) [25] (./lezioni/lezione7/lez7.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+[26]
+Overfull \hbox (19.89827pt too wide) in paragraph at lines 38--40
+ []\OT1/cmr/bx/n/12 Dimostrazione:[] \OT1/cmr/m/n/12 per di-mostrare questa im-
+pli-cazione ci baser-emo sulla definizione
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+[27]) [28] (./lezioni/lezione8/lez8.tex [29]) [30] (./lezioni/lezione9/lez9.tex
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+[32]) [33] (./lezioni/lezione10/lez10.tex [34] [35] [36] [37] [38]) [39]
+[40] (./lezioni/lezione11/lez11.tex [41]
+<lezioni/lezione11/p1.jpg, id=348, 682.55pt x 133.49875pt>
+File: lezioni/lezione11/p1.jpg Graphic file (type jpg)
+<use lezioni/lezione11/p1.jpg>
+Package pdftex.def Info: lezioni/lezione11/p1.jpg  used on input line 48.
+(pdftex.def)             Requested size: 341.27417pt x 66.74919pt.
+ [42]
+<lezioni/lezione11/p2.jpg, id=355, 731.73375pt x 335.2525pt>
+File: lezioni/lezione11/p2.jpg Graphic file (type jpg)
+<use lezioni/lezione11/p2.jpg>
+Package pdftex.def Info: lezioni/lezione11/p2.jpg  used on input line 59.
+(pdftex.def)             Requested size: 365.86598pt x 167.62584pt.
+<lezioni/lezione11/p3.jpg, id=356, 652.4375pt x 283.0575pt>
+File: lezioni/lezione11/p3.jpg Graphic file (type jpg)
+<use lezioni/lezione11/p3.jpg>
+Package pdftex.def Info: lezioni/lezione11/p3.jpg  used on input line 63.
+(pdftex.def)             Requested size: 326.21794pt x 141.5284pt.
+ [43 <./lezioni/lezione11/p1.jpg> <./lezioni/lezione11/p2.jpg>]
+<lezioni/lezione11/p4.jpg, id=363, 652.4375pt x 283.0575pt>
+File: lezioni/lezione11/p4.jpg Graphic file (type jpg)
+<use lezioni/lezione11/p4.jpg>
+Package pdftex.def Info: lezioni/lezione11/p4.jpg  used on input line 70.
+(pdftex.def)             Requested size: 326.21794pt x 141.5284pt.
+ [44 <./lezioni/lezione11/p3.jpg> <./lezioni/lezione11/p4.jpg>]) [45] (./lezion
+i/lezione12/lez12.tex
+<lezioni/lezione12/pda1.jpg, id=378, 632.3625pt x 143.53625pt>
+File: lezioni/lezione12/pda1.jpg Graphic file (type jpg)
+<use lezioni/lezione12/pda1.jpg>
+Package pdftex.def Info: lezioni/lezione12/pda1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 316.18048pt x 71.76794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+<lezioni/lezione12/pda2.jpg, id=379, 632.3625pt x 143.53625pt>
+File: lezioni/lezione12/pda2.jpg Graphic file (type jpg)
+<use lezioni/lezione12/pda2.jpg>
+Package pdftex.def Info: lezioni/lezione12/pda2.jpg  used on input line 13.
+(pdftex.def)             Requested size: 316.18048pt x 71.76794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+[46 <./lezioni/lezione12/pda1.jpg> <./lezioni/lezione12/pda2.jpg>]
+<lezioni/lezione12/pda3.jpg, id=387, 632.3625pt x 143.53625pt>
+File: lezioni/lezione12/pda3.jpg Graphic file (type jpg)
+<use lezioni/lezione12/pda3.jpg>
+Package pdftex.def Info: lezioni/lezione12/pda3.jpg  used on input line 45.
+(pdftex.def)             Requested size: 316.18048pt x 71.76794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+[47 <./lezioni/lezione12/pda3.jpg>] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+[49]) [50] (./lezioni/lezione13/lez13.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+<lezioni/lezione13/TM1.png, id=418, 774.895pt x 320.19624pt>
+File: lezioni/lezione13/TM1.png Graphic file (type png)
+<use lezioni/lezione13/TM1.png>
+Package pdftex.def Info: lezioni/lezione13/TM1.png  used on input line 37.
+(pdftex.def)             Requested size: 464.94058pt x 192.11922pt.
+
+Overfull \hbox (46.6869pt too wide) in paragraph at lines 37--38
+[][] 
+ []
+
+[51]) [52 <./lezioni/lezione13/TM1.png>] (./lezioni/lezione14/lez14.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 13.
+
+[53] [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+) [56] (./lezioni/lezione15/lez15.tex
+Overfull \hbox (48.26802pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/12 Dimostrazione: \OT1/cmr/m/n/12 Sup-poni-amo per as-surdo che $
+\OML/cmm/m/it/12 A[]$ \OT1/cmr/m/n/12 sia de-cidi-bile $\OMS/cmsy/m/n/12 ) 9\OM
+L/cmm/m/it/12 T \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 TM t:c: L\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--47
+
+ []
+
+[57]
+<lezioni/lezione15/automa-parallelo.png, id=482, 1125.20375pt x 593.21625pt>
+File: lezioni/lezione15/automa-parallelo.png Graphic file (type png)
+<use lezioni/lezione15/automa-parallelo.png>
+Package pdftex.def Info: lezioni/lezione15/automa-parallelo.png  used on input 
+line 74.
+(pdftex.def)             Requested size: 393.82721pt x 207.6288pt.
+ [58 <./lezioni/lezione15/automa-parallelo.png>]
+Overfull \hbox (20.45934pt too wide) in paragraph at lines 90--97
+\OT1/cmr/m/it/12 Dimostrazione: $\OML/cmm/m/it/12 A[]$ \OT1/cmr/m/n/12 ^^Re Tur
+ing-Riconoscibile e quindi se $[]$ fosse Turing-Riconoscibile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--97
+
+ []
+
+<lezioni/lezione15/riduzione.png, id=494, 744.7825pt x 361.35pt>
+File: lezioni/lezione15/riduzione.png Graphic file (type png)
+<use lezioni/lezione15/riduzione.png>
+Package pdftex.def Info: lezioni/lezione15/riduzione.png  used on input line 14
+3.
+(pdftex.def)             Requested size: 297.90771pt x 144.53743pt.
+[59]
+Overfull \hbox (16.55482pt too wide) in paragraph at lines 149--149
+[]$\OML/cmm/m/it/12 f$ \OT1/cmr/m/n/12 deve es-sere cal-co-la-bile ovvero $\OMS
+/cmsy/m/n/12 9 \OML/cmm/m/it/12 T[] \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 TM[]x \
+OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 ^^F[][]$ 
+ []
+
+<lezioni/lezione15/automa-serie.png, id=507, 1152.305pt x 295.1025pt>
+File: lezioni/lezione15/automa-serie.png Graphic file (type png)
+<use lezioni/lezione15/automa-serie.png>
+Package pdftex.def Info: lezioni/lezione15/automa-serie.png  used on input line
+ 171.
+(pdftex.def)             Requested size: 403.31279pt x 103.28741pt.
+[60 <./lezioni/lezione15/riduzione.png> <./lezioni/lezione15/automa-serie.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+
+Overfull \hbox (2.35724pt too wide) in paragraph at lines 184--188
+\OT1/cmr/m/n/12 Definiamo una macchina che cal-cola la fun-zione di riduzione d
+i cui ab-bi-amo bisogno.
+ []
+
+[61]
+Overfull \hbox (35.3827pt too wide) in paragraph at lines 209--214
+[]\OT1/cmr/m/n/12 Se $\OML/cmm/m/it/12 w [] L\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+M\OT1/cmr/m/n/12 )$ al-lora $[] \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 L\OT1/cmr/m
+/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12 ;[]\OML/cmm/m/it/
+12 E[][]$ 
+ []
+
+) [62] (./lezioni/lezione16/lez16.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+[63] [64] [65]
+<lezioni/lezione16/teorema-1.png, id=569, 886.31125pt x 233.87375pt>
+File: lezioni/lezione16/teorema-1.png Graphic file (type png)
+<use lezioni/lezione16/teorema-1.png>
+Package pdftex.def Info: lezioni/lezione16/teorema-1.png  used on input line 16
+7.
+(pdftex.def)             Requested size: 443.15454pt x 116.93657pt.
+
+Overfull \hbox (24.90086pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+[66 <./lezioni/lezione16/teorema-1.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+
+Overfull \hbox (2.14136pt too wide) in paragraph at lines 201--202
+ []\OT1/cmr/bx/n/12 Teorema[] $\OML/cmm/m/it/12 EQ[]$\OT1/cmr/m/n/12 , il prob-
+lema dell'equivalenza tra $\OML/cmm/m/it/12 TM$\OT1/cmr/m/n/12 , non ^^Re Turin
+g-riconoscibile 
+ []
+
+
+Overfull \hbox (7.13852pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/12 bisogna ef-fet-tuare un map-ping $\OML/cmm/m/it/12 < M; w >[]< 
+T[]; T[] >$\OT1/cmr/m/n/12 che garan-tisce che $\OML/cmm/m/it/12 < T[]; T[] >\O
+MS/cmsy/m/n/12 2
+ []
+
+[67] [68]
+Overfull \hbox (29.98833pt too wide) in paragraph at lines 275--276
+ []\OT1/cmr/bx/n/12 Prova[] \OT1/cmr/m/n/12 Come prima ridu-ci-amo $\OMS/cmsy/m
+/n/12 :\OML/cmm/m/it/12 A[]$\OT1/cmr/m/n/12 , che sap-pi-amo es-sere non Turing
+-riconoscibile,
+ []
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 351--355
+
+ []
+
+[70] [71] [72]
+Overfull \hbox (9.6739pt too wide) in paragraph at lines 444--445
+[]\OT1/cmr/m/n/12 Per mostrarne la non de-cidi-bilit^^Ra ridu-ci-amo, come sem-
+pre, $\OML/cmm/m/it/12 A[]$ \OT1/cmr/m/n/12 ad esso: $\OML/cmm/m/it/12 A[] \OMS
+/cmsy/m/n/12 ^^T[]
+ []
+
+) [73] (./lezioni/lezione17/lez17.tex [74]
+Overfull \hbox (49.71237pt too wide) detected at line 78
+[]
+ []
+
+[75]
+<lezioni/lezione17/path.png, id=697, 890.32625pt x 379.4175pt>
+File: lezioni/lezione17/path.png Graphic file (type png)
+<use lezioni/lezione17/path.png>
+Package pdftex.def Info: lezioni/lezione17/path.png  used on input line 114.
+(pdftex.def)             Requested size: 267.09993pt x 113.82613pt.
+ [76 <./lezioni/lezione17/path.png>]) [77] (./lezioni/lezione18/lez18.tex
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+
+Overfull \hbox (14.4546pt too wide) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/12 Per ogni $\OML/cmm/m/it/12 v[]; v[]$ \OT1/cmr/m/n/12 nella pe
+r-mu-tazione, ver-i-fica che vi sia l'arco $(\OML/cmm/m/it/12 v[]; v[]\OT1/cmr/
+m/n/12 ) \OMS/cmsy/m/n/12 2
+ []
+
+<lezioni/lezione18/automa-permutazione.png, id=725, 1048.91875pt x 426.59375pt>
+
+File: lezioni/lezione18/automa-permutazione.png Graphic file (type png)
+<use lezioni/lezione18/automa-permutazione.png>
+Package pdftex.def Info: lezioni/lezione18/automa-permutazione.png  used on inp
+ut line 77.
+(pdftex.def)             Requested size: 418.25368pt x 170.10071pt.
+[79] [80 <./lezioni/lezione18/automa-permutazione.png>] [81] [82]
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--205
+
+ []
+
+[83]
+Overfull \hbox (14.48474pt too wide) in paragraph at lines 251--252
+\OT1/cmr/m/n/12 Definiamo $\OML/cmm/m/it/12 VP \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/
+12 f\OML/cmm/m/it/12 L \OMS/cmsy/m/n/12 j 9[]\OML/cmm/m/it/12 V[]L\OMS/cmsy/m/n
+/12 g$\OT1/cmr/m/n/12 . La di-mostrazione,
+ []
+
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 256--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--291
+
+ []
+
+[85]) [86] (./lezioni/lezione19/lez19.tex
+<lezioni/lezione19/notHam.png, id=822, 223.83624pt x 251.94125pt>
+File: lezioni/lezione19/notHam.png Graphic file (type png)
+<use lezioni/lezione19/notHam.png>
+Package pdftex.def Info: lezioni/lezione19/notHam.png  used on input line 11.
+(pdftex.def)             Requested size: 134.30278pt x 151.16591pt.
+<lezioni/lezione19/PNP.png, id=823, 656.4525pt x 368.37625pt>
+File: lezioni/lezione19/PNP.png Graphic file (type png)
+<use lezioni/lezione19/PNP.png>
+Package pdftex.def Info: lezioni/lezione19/PNP.png  used on input line 26.
+(pdftex.def)             Requested size: 262.57634pt x 147.34789pt.
+
+Overfull \hbox (6.74738pt too wide) in paragraph at lines 29--31
+[]\OT1/cmr/m/n/12 Definiamo $\OML/cmm/m/it/12 EXPTIME \OT1/cmr/m/n/12 = [] []$,
+ sap-pi-amo che $\OML/cmm/m/it/12 NP \OMS/cmsy/m/n/12 ^^R \OML/cmm/m/it/12 EXPT
+IME$
+ []
+
+[87 <./lezioni/lezione19/notHam.png> <./lezioni/lezione19/PNP.png>] [88]
+[89] [90]
+<lezioni/lezione19/GrafoClique.png, id=866, 879.285pt x 620.3175pt>
+File: lezioni/lezione19/GrafoClique.png Graphic file (type png)
+<use lezioni/lezione19/GrafoClique.png>
+Package pdftex.def Info: lezioni/lezione19/GrafoClique.png  used on input line 
+180.
+(pdftex.def)             Requested size: 307.75436pt x 217.11438pt.
+ [91] [92 <./lezioni/lezione19/GrafoClique.png>] [93]
+<lezioni/lezione19/IndSet.png, id=896, 764.8575pt x 502.87875pt>
+File: lezioni/lezione19/IndSet.png Graphic file (type png)
+<use lezioni/lezione19/IndSet.png>
+Package pdftex.def Info: lezioni/lezione19/IndSet.png  used on input line 239.
+(pdftex.def)             Requested size: 267.70413pt x 176.0102pt.
+) [94 <./lezioni/lezione19/IndSet.png>] (./lezioni/lezione20/lez20.tex
+Overfull \hbox (27.6391pt too wide) detected at line 10
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[95]
+<lezioni/lezione20/modifica.png, id=918, 512.91624pt x 171.64125pt>
+File: lezioni/lezione20/modifica.png Graphic file (type png)
+<use lezioni/lezione20/modifica.png>
+Package pdftex.def Info: lezioni/lezione20/modifica.png  used on input line 50.
+
+(pdftex.def)             Requested size: 307.75212pt x 102.98552pt.
+ [96 <./lezioni/lezione20/modifica.png>]
+<lezioni/lezione20/NP-PSPACE.png, id=929, 342.27875pt x 342.27875pt>
+File: lezioni/lezione20/NP-PSPACE.png Graphic file (type png)
+<use lezioni/lezione20/NP-PSPACE.png>
+Package pdftex.def Info: lezioni/lezione20/NP-PSPACE.png  used on input line 96
+.
+(pdftex.def)             Requested size: 205.36882pt x 205.36882pt.
+ [97]
+Overfull \hbox (8.24763pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/12 Non us-ando il teo-rema Sav-itch, devo pas-sare da NTM a TM u
+s-ando la costruzione 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+[98 <./lezioni/lezione20/NP-PSPACE.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 154.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
+
+ []
+
+
+Overfull \hbox (25.3245pt too wide) in paragraph at lines 170--171
+[]\OT1/cmr/m/n/12 non de-ter-min-is-ti-ca-mente prendi $\OML/cmm/m/it/12 a \OMS
+/cmsy/m/n/12 2 \OT1/cmr/m/n/12 ^^F$ e cal-cola $\OML/cmm/m/it/12 S[] \OT1/cmr/m
+/n/12 = \OML/cmm/m/it/12 " \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 closure\OT1/cm
+r/m/n/12 ([][] \OML/cmm/m/it/12 ^^N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; a\OT1/c
+mr/m/n/12 ))$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
+
+ []
+
+[99] [100]) (./lezioni/lezione21/lez21.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+[101] [102]
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+
+ []
+
+[103]
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+
+ []
+
+<lezioni/lezione21/riduzione-esercizio.png, id=989, 1118.1775pt x 419.5675pt>
+File: lezioni/lezione21/riduzione-esercizio.png Graphic file (type png)
+<use lezioni/lezione21/riduzione-esercizio.png>
+Package pdftex.def Info: lezioni/lezione21/riduzione-esercizio.png  used on inp
+ut line 168.
+(pdftex.def)             Requested size: 418.25368pt x 156.94049pt.
+[104] [105 <./lezioni/lezione21/riduzione-esercizio.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+ [106]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+ (./root.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+ ) 
+Here is how much of TeX's memory you used:
+ 9953 strings out of 494219
+ 143844 string characters out of 6161481
+ 239271 words of memory out of 5000000
+ 12493 multiletter control sequences out of 15000+600000
+ 15435 words of font info for 58 fonts, out of 8000000 for 9000
+ 417 hyphenation exceptions out of 8191
+ 35i,18n,30p,859b,808s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on root.pdf (106 pages, 1273976 bytes).
+PDF statistics:
+ 1567 PDF objects out of 1728 (max. 8388607)
+ 1377 compressed objects within 14 object streams
+ 590 named destinations out of 1000 (max. 500000)
+ 1147 words of extra memory for PDF output out of 10000 (max. 10000000)
+
